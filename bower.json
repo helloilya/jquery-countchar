@@ -1,0 +1,26 @@
+{
+  "name": "jquery-countchar",
+  "version": "1.0.0",
+  "description": "A simple counter of characters for multiple form fields based on jQuery",
+  "license": "MIT",
+  "authors": [
+    "Ilya Fedotov <ilya@fedotov.me>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:helloilya/jquery-countchar.git"
+  },
+  "main": "jquery.countchar.min.js",
+  "ignore": [
+    "**/.*"
+  ],
+  "keywords": [
+    "jquery",
+    "counter",
+    "characters",
+    "form"
+  ],
+  "dependencies": {
+    "jquery": ">=1.9.1"
+  }
+}
