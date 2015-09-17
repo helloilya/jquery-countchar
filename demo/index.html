@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery countChar</title>
+
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,900">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" media="all">
+	<link rel="stylesheet" href="styles.css" media="all">
+
+</head>
+<body>
+
+	<section class="container">
+
+		<h1>jQuery countChar</h1>
+		<h2>A simple counter of characters for multiple form fields based on jQuery.</h2>
+
+		<!-- Form fields -->
+
+		<form class="container-form">
+			<div class="clearfix">
+				<input type="text" name="name" data-countchar="[a-z]+" placeholder="Letters">
+				<input type="text" name="age" data-countchar="[\d]+" value="25" placeholder="Numbers">
+			</div>
+			<textarea name="desc" data-countchar="" data-countchar-limit="15" placeholder="Limit is 15 characters, any text"></textarea>
+		</form>
+
+		<!-- Output container -->
+
+		<p class="container-output" id="countchar-output"></p>
+
+	</section>
+
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="../jquery.countchar.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('[data-countchar]').countChar({
+				text: 'Characters:'
+			});
+		});
+	</script>
+
+</body>
+</html>
