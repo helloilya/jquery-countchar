@@ -2,18 +2,17 @@
   "name": "jquery-countchar",
   "version": "1.1.0",
   "description": "A simple counter of characters for multiple form fields based on jQuery",
+  "author": "Ilya Fedotov <ilya@fedotov.me>",
   "license": "MIT",
-  "authors": [
-    "Ilya Fedotov <ilya@fedotov.me>"
-  ],
+  "main": "jquery.countchar.min.js",
+  "homepage": "https://github.com/helloilya/jquery-countchar",
+  "bugs": {
+    "url": "https://github.com/helloilya/jquery-countchar/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:helloilya/jquery-countchar.git"
   },
-  "main": "jquery.countchar.min.js",
-  "ignore": [
-    "**/.*"
-  ],
   "keywords": [
     "jquery",
     "counter",

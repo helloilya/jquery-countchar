@@ -14,6 +14,12 @@ Install via bower:
 $ bower install jquery-countchar --save
 ```
 
+or via npm:
+
+```
+$ npm install jquery-countchar --save
+```
+
 or download the `jquery.countchar.min.js` file into your repo.
 
 Then, include script file after the jQuery library and initialize the plugin:
@@ -44,6 +50,7 @@ It will count only numbers and the maximum number of characters will 10. If the 
 
 ### Release History
 
+* 1.1.0 — Added npm support.
 * 1.0.0 — Added bower support.
 
 ### License

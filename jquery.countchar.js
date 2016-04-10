@@ -1,8 +1,9 @@
 /**
  *	jQuery countChar: A simple counter of characters for multiple form fields based on jQuery
  *
- *	@version: 1.0.0
+ *	@version: 1.1.0
  *	@author Ilya Fedotov
+ *	@link: github.com/helloilya/jquery-countchar
  *	@license: MIT
  */
 
